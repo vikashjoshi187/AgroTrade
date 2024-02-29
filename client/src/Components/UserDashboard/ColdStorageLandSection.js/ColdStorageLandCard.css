@@ -1,0 +1,49 @@
+#lands-row{
+    width: 90%;
+}
+.landpara{
+    text-align:  justify;
+} 
+.landparag{
+    text-align: justify;
+    max-height: 125px;
+    overflow: scroll;
+}
+
+.card-div{
+    width: 100%;
+    
+ }
+
+ .card{
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+ }
+
+@media (min-width: 768px) {
+    .card-div{
+        width: 85%;
+    }
+}
+
+#imgeDiv{
+    overflow: hidden;
+}
+
+#imgeDiv img{
+    transition: 0.5s;
+}
+#imgeDiv img:hover{
+    scale: 110%;
+}
+
+.card-image {
+    height: 300px; /* Set your desired height */
+    width: 200px;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+
+  .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

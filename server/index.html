@@ -1,0 +1,23 @@
+<script>
+    // Function to get the value of a cookie by its name
+function getCookie(name) {
+  const cookies = document.cookie.split('; ');
+  for (let i = 0; i < cookies.length; i++) {
+    const cookie = cookies[i].split('=');
+    if (cookie[0] === name) {
+      return cookie[1];
+    }
+  }
+  return null;
+}
+
+// Example: Get the value of the "jwt" cookie
+const jwtCookieValue = getCookie('jwt');
+
+if (jwtCookieValue) {
+  console.log('JWT cookie value:', jwtCookieValue);
+  // Now you can use the JWT value for authentication or other purposes
+} else {
+  console.log('JWT cookie not found');
+}
+</script>

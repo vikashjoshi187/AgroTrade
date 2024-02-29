@@ -1,0 +1,35 @@
+#footerMiandiv{
+    background-image: url("../../assets/FooterBackGroung.jpeg");
+    background-size: cover;
+}
+.overlay{
+    margin: 0px;
+    /* display: flex ; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.672);
+}
+#subscribeInput{
+    border-radius: 0px;
+    border: none;
+}
+#subscribeBtn{
+   border-radius: 0px;
+}
+
+#footer-innercointaner{
+    width: 100vw;
+}
+
+#footerHr {
+    border: none;
+    height: 7px;
+    background-color: green;
+    opacity: 100%;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: #ffffff;
+    /* color: #4CAF50; */
+}

@@ -1,0 +1,62 @@
+#add-grain-button{
+    background: yellow;
+    color: #08390A;
+    border: 0px;
+    width:30%;
+}
+#OrgFromBox{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#imgcol-cold
+{   padding: 2px;
+    height: auto;
+}
+.imgcol-cold-img{
+    height: 100%;
+    padding: 2px;
+}
+#imgcol-agri{
+    padding: 2px;
+    height: auto;
+}
+#imgcol-agri img{
+    padding: 2px;
+     height: 100%;
+}
+
+#imgcol-equi{
+    padding: 2px;
+    height: auto;
+    
+ }
+#imgcol-equi img{
+    padding: 2px;
+    height: 100%;
+    
+} 
+#imgcol-grain{
+    height: auto;
+    padding: 2px;
+    /* background-color: aqua; */
+}
+.imgcol-grain-img{
+    padding: 2px;
+    height: 100%;
+}
+@media only screen and (max-width: 992px) {
+    #imgcol-agri{
+        display: none;
+    }
+    #imgcol-cold{
+        display: none;
+    }
+    #imgcol-equi{
+        display: none;
+    }
+    #imgcol-grain{
+        display: none;
+    }
+
+}

@@ -1,0 +1,46 @@
+body{
+    margin-top: 0;
+}
+.bg-darkgreen{
+    background-color: #08390A;
+    
+}
+
+.darkgreen{
+    color: #08390A;
+    
+}
+
+.midgreen{
+    color: #4CAF50;
+    
+}
+.wght-600{
+    font-weight: 400;
+}
+#lf-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+#navLinkul li link {
+    font-size: 1rem;
+}
+#navToggler{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #lg-links{
+     display: none;
+    }
+    #navToggler{
+        display: flex;
+          
+    }
+    #logIutButton{
+        display: none;
+    }
+  }

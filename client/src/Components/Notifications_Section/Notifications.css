@@ -1,0 +1,19 @@
+.toast-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 1000;
+    pointer-events: none; /* Allows interactions with elements behind the toast */
+    align-self:self-end;
+    max-height:40vh;
+    overflow-y: scroll;
+
+
+
+  }
+  
+  .toast-container .toast {
+    pointer-events: auto; /* Restore pointer events for the toast */
+  }
+  

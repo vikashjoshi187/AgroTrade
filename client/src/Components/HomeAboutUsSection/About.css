@@ -1,0 +1,52 @@
+.block-2 {
+    background: #185922;
+    color: #fff;
+    padding: 7rem 0;
+}
+
+.block-2 .img-overlap {
+    margin-top: -150px;
+}
+
+.section-subtitle {
+    margin-top: -10%;
+}
+
+#content {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 100;
+    width: 125%;
+}
+
+#aboutImg{
+    border-radius: 30px;
+    box-shadow: 10px 10px 100px 100px rgba(0, 0, 0, 0.2);
+}
+#forLink{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .section-subtitle {
+        margin-top: 0%;
+    }
+
+    #content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px) {
+    #content {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+/* #aboutuspara{
+    font-size: 1.3rem;
+    text-align: justify;
+    color: white;
+} */

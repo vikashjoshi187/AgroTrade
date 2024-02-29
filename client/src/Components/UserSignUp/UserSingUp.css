@@ -1,0 +1,25 @@
+
+@media only screen and (max-width: 992px) {
+#imgcol{
+    display: none;
+}
+
+/* #datacol::before {
+    background-image: url("../Images/leaves_Image.jpeg");
+    background-size: cover;
+    opacity: 50%;
+} */
+
+#datacol::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../../assets/leaves_Image.jpeg");
+    background-size: cover;
+    opacity: 50%; /* Adjust the opacity as needed */
+    z-index: -1; /* Place the pseudo-element behind the content */
+}
+}

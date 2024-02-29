@@ -1,0 +1,18 @@
+.hover-zoom:hover{
+    transform: scale(1.1);
+    opacity: .8;
+    transition: all 2s;
+}
+
+.w-img{
+    width: 30vw;
+    height: 30vh;
+}
+.txt-s{
+    color: #08390A;
+}
+
+.landinpage-grian-card-img{
+    aspect-ratio: 3/3;
+    object-fit: cover;
+}

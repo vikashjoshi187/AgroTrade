@@ -1,0 +1,47 @@
+.custom-height-width {
+    height: 80%;
+    width: 100%;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 130%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.textcolor {
+    color: rgb(13, 80, 16)
+}
+
+.socialicons {
+    color: rgb(13, 80, 16)
+}
+
+.btn1 {
+    background-color: rgb(13, 80, 16);
+    /* color: rgb(13, 80, 16) */
+}
+
+.banner1 {
+    width: 100vw;
+    height: 80vh;
+    padding: 0;
+}
+
+#col {
+    padding-right: 5%;
+}
+
+@media only screen and (max-width: 992px) {
+    #col {
+        padding: 1%;
+    }
+}

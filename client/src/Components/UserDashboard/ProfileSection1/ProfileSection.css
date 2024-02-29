@@ -1,0 +1,40 @@
+.bg-darkgreen{
+    background-color: #08390A;
+    
+}
+
+.darkgreen{
+    color: #08390A;
+    
+}
+
+.bg-midgreen{
+    background-color: #4CAF50;
+    
+}
+
+.midgreen{
+    color: #4CAF50;
+    
+}
+.wght-600{
+    font-weight: 600;
+}
+
+
+:root {
+    --primary: #009CFF;
+    --light: #F3F6F9;
+    --dark: #191C24;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+#addressPara{
+    text-align: justify;
+}

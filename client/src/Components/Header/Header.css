@@ -1,0 +1,56 @@
+#headerDiv{
+    background-color: rgb(255, 255, 255);
+}
+
+#logo{
+    max-width: 115px;
+    min-width: 20px;
+   animation: rotateLogo   ;
+   animation-timeline: scroll();
+}
+
+.downDhadow{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#offcanvasDiv{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-content{
+    display: none;
+  }
+  #nacLinksdiv{
+    display: none;
+  }
+
+  #offcanvasDiv{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+  }
+
+  #navLinkul li a {
+        font-size: 20px;
+  }
+
+  .linksbtn{
+    border-radius: 0px;
+    margin-left: 10px;
+  }
+
+  .offcanvasLinks{
+    font-size: 25px;
+  }
+  
+@keyframes rotateLogo{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

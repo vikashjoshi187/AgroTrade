@@ -1,0 +1,14 @@
+.description-container {
+    width: 300px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    overflow: auto; /* Add scrollbar when content overflows */
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+}
+
+/* Style for the description text */
+.description-text {
+    /* font-size: 1em;  */
+    line-height: 1.5;
+}
+

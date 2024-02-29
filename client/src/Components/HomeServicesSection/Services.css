@@ -1,0 +1,44 @@
+#services-row{
+    width: 90%;
+}
+.serviceBox{
+    background-color: white;
+    border-radius: 5px ;
+    height: 100%;
+    border:  2.5px solid green; 
+    transition: 1s;  
+}
+.serviceIcon{
+    font-size: 4.5rem;
+    text-align: center;
+    color:  #08390A;
+}
+.servicepara{
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.serviceBox:hover{
+    background-color: #08390A;
+}
+.serviceBox:hover h1,
+.serviceBox:hover h2,
+.serviceBox:hover p {
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    #services-row{
+        width: 100%;
+    } 
+    .servicepara{
+        font-size: 16px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+
+
+

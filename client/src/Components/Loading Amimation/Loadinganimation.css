@@ -1,0 +1,81 @@
+/* HTML: <div class="loader"></div>
+.loader {
+  width: 55px;
+  aspect-ratio: 1;
+  --g1:conic-gradient(from  90deg at top    3px left  3px,#0000 90deg,#fff 0);
+  --g2:conic-gradient(from -90deg at bottom 3px right 3px,#0000 90deg,#fff 0);
+  background:
+    var(--g1),var(--g1),var(--g1),var(--g1), 
+    var(--g2),var(--g2),var(--g2),var(--g2);
+  background-position: 0 0,100% 0,100% 100%,0 100%;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  animation: l11 1.5s infinite;
+}
+@keyframes l11 {
+  0%   {background-size:35px 15px,15px 15px,15px 35px,35px 35px}
+  25%  {background-size:35px 35px,15px 35px,15px 15px,35px 15px}
+  50%  {background-size:15px 35px,35px 35px,35px 15px,15px 15px}
+  75%  {background-size:15px 15px,35px 15px,35px 35px,15px 35px}
+  100% {background-size:35px 15px,15px 15px,15px 35px,35px 35px}
+} */
+
+
+
+
+
+
+/* HTML: <div class="loader"></div> */
+/* .loader {
+  width: 70px;
+  height: 40px;
+  outline: 2px solid #fff;
+  background:
+    radial-gradient(farthest-side,red 90%,#0000) 0 0/8px 8px no-repeat,
+    radial-gradient(farthest-side,#000 90%,#0000) 0 0/8px 8px no-repeat,
+    linear-gradient(#fff 0 0) 50%/10px 100% no-repeat,
+    conic-gradient(from  90deg at 10px 10px,#0000 90deg,#fff 0),
+    conic-gradient(from -90deg at 60px 30px,#0000 90deg,#fff 0);
+  animation: l9 2s infinite;
+}
+@keyframes l9 {
+  0%    {background-position:50%  100%,0    0   ,50%}
+  12.5% {background-position:0    100%,50%  0   ,50%}
+  25%   {background-position:0    0   ,50%  100%,50%}
+  37.5% {background-position:50%  0   ,100% 100%,50%}
+  50%   {background-position:50%  100%,100% 0   ,50%}
+  62.5% {background-position:100% 100%,50%  0   ,50%}
+  75%   {background-position:100% 0   ,50%  100%,50%}
+  82.5% {background-position:50%  0   ,0    100%,50%}
+  100%  {background-position:50%  100%,0    0   ,50%}
+} */
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  --s: 25px;
+  --g :5px;  
+  
+  width: calc(3*(1.353*var(--s) + var(--g)));
+  aspect-ratio: 3;
+  background:
+    linear-gradient(#01680e 0 0) left/33% 100% no-repeat,
+    conic-gradient(from -90deg at var(--s) calc(0.353*var(--s)),
+      #fff 135deg,#666 0 270deg,#aaa 0); 
+  background-blend-mode: multiply;
+  --_m:
+    linear-gradient(to bottom right,
+       #0000 calc(0.25*var(--s)),#000 0 calc(100% - calc(0.25*var(--s)) - 1.414*var(--g)),#0000 0),
+    conic-gradient(from -90deg at right var(--g) bottom var(--g),#000 90deg,#0000 0);
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  background-size:   calc(100%/3) 100%;
+  -webkit-mask-size: calc(100%/3) 100%;
+          mask-size: calc(100%/3) 100%;
+  -webkit-mask-composite: source-in;
+          mask-composite: intersect;
+  animation: l7 steps(3) 1.5s infinite;
+}
+@keyframes l7 {
+  to {background-position: 150% 0%}
+}

@@ -1,0 +1,47 @@
+.bg-darkgreen{
+    background-color: #08390A;
+    
+}
+
+.light-yellow{
+ 
+/* background: rgba(46, 247, 93, 1.0);
+background: linear-gradient(315deg, rgba(46, 247, 93, 1.0), rgba(69, 214, 122, 1.0));
+   */
+
+
+
+
+background: #D6BA07;
+background: linear-gradient(315deg, #D6BA07, #EFDE88);
+}
+
+.darkgreen{
+    color: #08390A;
+    
+}
+
+.midgreen{
+    color: #4CAF50;
+    
+}
+
+.bg-midgreen{
+    color: #4CAF50;
+    
+}
+
+#main-div{
+   height: 100vh;
+}
+
+.text-midgreen{
+    color:#4CAF50;
+
+}
+
+ .login-btn{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+ }

@@ -1,0 +1,24 @@
+.intro {
+    height: 100%;
+  }
+  
+  table td,
+  table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  
+  }
+  
+  .table-card {
+    border-radius: .5rem;
+    background-color: rgb(214, 229, 221);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .5s;
+  }
+  .card:hover{
+  
+      /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 10px, rgba(0, 0, 0, 0.23) 0px 10px 10px;
+  
+  }

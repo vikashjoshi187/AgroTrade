@@ -1,0 +1,28 @@
+#lands-row{
+    width: 90%;
+}
+.landpara{
+    text-align: justify;
+}
+.landpara{
+    text-align: justify;
+    max-height: 125px;
+    overflow: scroll;
+}
+
+.card-div{
+    width: 0%;
+ }
+
+
+@media (min-width: 768px) {
+    .card-div{
+       width: 85%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .landpara{
+       display: none;
+    }
+}

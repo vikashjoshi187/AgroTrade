@@ -1,0 +1,12 @@
+#statsRow{
+    width: 90%;
+}
+
+.statBox{
+    border-radius: 5px;
+    background-color: #FCD170;
+}
+
+.statIcon{
+    font-size: 60px;
+}

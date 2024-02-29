@@ -1,0 +1,31 @@
+
+@media only screen and (max-width: 992px) {
+    #imgcol{
+        display: none;
+    }
+    
+    #datacol{
+    
+        background-image: url("../../assets/leaves_Image.jpeg");
+        background-size: cover; 
+        position: relative;
+        background-blend-mode:overlay;
+    }
+    
+    .row {
+        --bs-gutter-x: 0; /* Set the gutter to 0 to remove it */
+        margin-right: 0;
+        margin-left: 0;
+      }
+    
+    #overlay {
+        background-color:#000000a8; /* Adjust the opacity value (0.7 in this case) */
+        padding: 20px;
+    
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.849); /* Optional: Add a box shadow for a lifted effect */
+      }
+    .columns{
+        background-color: red;
+    }
+    }
+    
